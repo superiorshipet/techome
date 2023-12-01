@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: 'League Spartan', sans-serif;
+  }
+  
+  .container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form input {
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #218838;
+  }
+  
+  .overlay-container {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .overlay {
+    display: flex;
+    height: 100%;
+  }
+  
+  .overlay-panel {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .overlay-left {
+    background-color: #f8f9fa;
+  }
+  
+  .overlay-right {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .overlay h1 {
+    font-size: 24px;
+  }
+  
+  .overlay p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .overlay button {
+    padding: 10px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .overlay button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .sup {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sup:hover {
+    background-color: #218838;
+  }
+  
